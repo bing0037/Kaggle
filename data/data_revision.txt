@@ -1,0 +1,8 @@
+test.csv train.csv:  original csv files downloaded from Kaggle.
+
+test_age_revised.csv   train_age_revised.csv: csv files revised from test.csv train.csv
+(train_age_revised.csv: examples with blank age are deleted;
+test_age_revised.csv: blank ages are set to 0!)
+
+
+-20180422

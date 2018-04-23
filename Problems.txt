@@ -1,0 +1,14 @@
+1) data cleaning
+2) get prediction value
+3) save prediction value: : pandas.DataFrame.to_csv('xxx.csv'). Solved!
+
+see: 1_Titanic_Neural_Net.py
+
+-20180409
+
+1) data cleaning: set all the initial target as 0 ?!
+2) get prediction value: solved by adding fake prediction(manually!) ?!
+
+see: 2_Titanic_Neural_Net.py & 3_Titanic_Linear_Regression.py
+
+-20180422
