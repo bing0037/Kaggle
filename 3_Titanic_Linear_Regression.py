@@ -25,14 +25,15 @@ def preprocess_features(Titanic_dataframe):
     [
         # "PassengerId",
         "Pclass",
-        #"Sex",
+        "Sex",
         "Age",
         "SibSp",
         "Parch",
         "Fare",
-        #"Embarked"
+        "Embarked"
         ]]
     processed_features = selected_features.copy()
+    processed_features = pd.get_dummies(processed_features)    
     #processed_features["Sex"] = processed_features["Sex"].apply(lambda x: 1 if x == "male" else 0)
     #processed_features["Embarked"] = processed_features["Embarked"].apply(lambda x: -1 if x == "S" else 0 if x == "S" else 1)
     
